@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.yige.arcgisdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".MapOneActivity"
+            />
+        <activity android:name=".MapTwoActivity"/>
+        <activity android:name=".MapThreeActivity"/>
+        <activity android:name=".MapFourActivity"/>
+        <activity android:name=".MapFiveActivity"/>
+        <activity android:name=".MapSixActivity"/>
+        <activity android:name=".MapSevenActivity"/>
+        <activity android:name=".MapEightActivity"/>
+        <activity android:name=".MapNineActivity"/>
+        <activity android:name=".MapTenActivity"
+                  android:configChanges="orientation|screenSize|uiMode"
+            />
+
+        <activity android:name=".MapSaveActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="auth"
+                    android:scheme="my-ags-app" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MapElevenActivity"
+            android:uiOptions="splitActionBarWhenNarrow"
+            />
+        <activity android:name=".MapThirteenActivity"/>
+        <activity android:name=".MapFiveteenActivity"/>
+        <activity android:name=".MapSixteenActivity"/>
+
+        <activity android:name=".MapFourteenActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            />
+
+    </application>
+<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+</manifest>

@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">ArcGisDemo</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="vector_tiled_types">
+        <item>Streets</item>
+        <item>Navigation Vector</item>
+        <item>Topographic</item>
+        <item>Topographic Vector</item>
+        <item>Gray Canvas</item>
+        <item>Gray Canvas Vector</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- World Topo Map Service URL -->
+    <string name="world_elevation_service">
+        http://sampleserver5.arcgisonline.com/arcgis/rest/services/Elevation/WorldElevations/MapServer</string>
+    <string name="world_elevation_service_one">
+        http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer</string>
+
+
+    <string name="navigation_url">http://www.arcgis.com/home/item.html?id=00cd8e843bae49b3a040423e5d65416b</string>
+    <string name="streets_url">http://www.arcgis.com/home/item.html?id=3b8814f6ddbd485cae67e8018992246e</string>
+    <string name="night_url">http://www.arcgis.com/home/item.html?id=f96366254a564adda1dc468b447ed956</string>
+    <string name="dark_gray_url">http://www.arcgis.com/home/item.html?id=3e3099d7302f4d99bc6f916dcc07ed59</string>
+
+    <string-array name="vector_tiled_types_one">
+        <item>World Navigation</item>
+        <item>World Street</item>
+        <item>World Street Night</item>
+        <item>Dark Gray Canvas</item>
+    </string-array>
+
+    <string name="vector_tiled_layer">%1$s</string>
+
+    <string name="app_name_one">Change feature layer renderer</string>
+    <string name="action_override_rend">Override renderer</string>
+    <string name="action_reset">Reset</string>
+    <string name="sample_service_url">http://sampleserver6.arcgisonline.com/arcgis/rest/services/PoolPermits/FeatureServer/0</string>
+
+
+    <!-- World Topo Map Service URL -->
+    <string name="world_cities_service">http://sampleserver6.arcgisonline.com/arcgis/rest/services/SampleWorldCities/MapServer</string>
+    <!-- Menu Items -->
+    <string name="Cities">Cities</string>
+    <string name="Continents">Continents</string>
+    <string name="World">World</string>
+
+
+    <string name="GriffithPark">Geometry GP</string>
+    <string name="geometry">Geometry</string>
+    <string name="center_scale">Center &amp; Scale</string>
+    <string name="animate">Animate</string>
+
+
+    <string name="basemap_selection">Choose a basemap</string>
+    <string name="layer_selection">Add operational layers</string>
+    <string name="title">Title</string>
+    <string name="tags">Tags</string>
+    <string name="desc">Description</string>
+
+    <!-- Services -->
+    <string name="world_elevation">http://sampleserver6.arcgisonline.com/arcgis/rest/services/WorldTimeZones/MapServer</string>
+    <string name="world_census">http://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer</string>
+    <!-- App messages -->
+    <string name="author_map_message">Creating your map</string>
+    <string name="wait">Please wait&#8230;</string>
+    <string name="map_successful">Map created successfully</string>
+    <string name="title_error">Please enter a Title for your map</string>
+    <string name="tags_error">Tags can not be empty</string>
+    <!-- Basemap choice array -->
+    <string-array name="basemap_array">
+        <item>Streets</item>
+        <item>Imagery</item>
+        <item>Topographic</item>
+        <item>Oceans</item>
+    </string-array>
+    <!-- Operational layer array -->
+    <string-array name="operational_layer_array">
+        <item>World Elevation</item>
+        <item>Census</item>
+    </string-array>
+
+
+    <string name="location_permission_denied">LocationDisplayManager cannot run because location permission was denied</string>
+
+
+    <string name="action_draw">Draw</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_erase">Erase</string>
+    <string name="point">Point</string>
+    <string name="polyline">Polyline</string>
+    <string name="polygon">Polygon</string>
+    <string name="pointButtonDescription">Draw new point button</string>
+    <string name="polylineButtonDescription">Draw new polyline button</string>
+    <string name="polygonButtonDescription">Draw new polygon button</string>
+    <string name="undoButtonDescription">Undo last drawing event button</string>
+    <string name="redoButtonDescription">Redo last undone drawing event button</string>
+    <string name="clearButtonDescription">Clear current drawings button</string>
+
+    <string name="pin_blank_orange_folder_name">ArcGISTemp</string>
+    <string name="pin_blank_orange_file_name">pin_blank_orange.png</string>
+
+
+
+    <!-- spatial operation menu items -->
+    <string name="caption_no_operation">No operation</string>
+    <string name="caption_intersection">Intersection</string>
+    <string name="caption_union">Union</string>
+    <string name="caption_difference">Difference</string>
+    <string name="caption_symmetric_difference">Symmetric difference</string>
+
+</resources>
